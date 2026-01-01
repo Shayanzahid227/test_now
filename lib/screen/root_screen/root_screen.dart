@@ -111,7 +111,8 @@ class _BottomBarItem extends StatelessWidget {
     return GestureDetector(
       onTap: onTap,
       child: Container(
-        padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 30),
+        width: 80.w,
+        padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 5),
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(296.0),
           color: isSelected ? rootTabColor : transparentColor,

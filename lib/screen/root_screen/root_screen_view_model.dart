@@ -37,6 +37,7 @@ class RootScreenViewModel extends BaseViewModel {
   }
 }
 
+
 class BottomBarItem {
   final String icon;
   final String label;

@@ -4,7 +4,6 @@ import 'package:get/get_navigation/src/root/get_material_app.dart';
 import 'package:device_preview/device_preview.dart';
 import 'package:test_now/core/constant/colors.dart';
 import 'package:test_now/screen/root_screen/root_screen.dart';
-import 'package:test_now/screen/tests/test_screen.dart';
 
 void main() {
   runApp(DevicePreview(enabled: false, builder: (context) => const MyApp()));
